@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    
+
+    <form action="">
+        <h2>Login</h2>
+        <h3>Please input email and password</h3>
+        <!--Type of input; Name of this input; Value is defaul value-->
+        <input type="email" name="userEmail" value="">
+        <input type="password" name="userPass" value="" >
+        <input type="submit" name="" value="Log In" >
+    </form>
+
+    <form action="">
+        <h1>Choose color</h1>
+        <input type="color">
+    </form>
+
+    <form action="https://www.facebook.com">
+        <p>Enter Email:</p>
+        <input type="email" name="useremail" id="">
+        <input type="submit" name="" id="">
+    </form>
+
+    <form action="">
+        <h1>idk</h1>
+        <label>
+            Enter Text:
+            <input type="text" name="" id="">
+        </label>
+        <br>
+
+        <!--For means that it'll be for the thing that has same id-->
+        <label for="userInput"> Enter Input:</label>
+        <!--Placeholder is whats inside of it & req means its req to submit-->
+        <input type="text" name="" placeholder="Hello!" id="userInput" required>
+        <input type="text" name="" id="" placeholder="Not req">
+        <input type="submit" name="" id="">
+    </form>
+    
+    <h1>Hotel Feedback Form</h1>
+    <form method="get">
+        <h3>Are you from the US?</h3>
+        <label for="inUSA">Yes:</label>
+        <!--Since both have same name, they're linked 
+        and cannot be both clicked at the same time-->
+        <input type="radio" name="loc" id="inUSA" value="inside">
+        <label for="outUSA">No:</label>
+        <input type="radio" name="loc" id="outUSA" value="outside">
+        
+        <h3>How was your service</h3>
+        <select name="stars" id="" required>
+            <option value=""></option>
+            <option value="Great">3 Stars</option>
+            <option value="Okay">2 Stars</option>
+            <option value="Bad">1 Stars</option>
+        </select>
+
+        <p>Any other feedback?</p>
+        <!--Makes a block for text-->
+        <textarea name="" id="" cols="80" rows="8"></textarea>
+        <input type="submit" name="" id="">
+    </form>
+    
+</body>
+</html>
