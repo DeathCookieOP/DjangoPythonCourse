@@ -1,0 +1,24 @@
+/* can do CTRL + / to comment something */
+/* 
+General format of CSS
+selected tag{
+    property: value;
+} */
+
+/* Will do this to all h1 tags in the html */
+h1{
+    color:blue;
+}
+
+li{
+    color: rgb(146, 220, 146);
+}
+
+p{
+    color: #e3770b;
+}
+
+/* RGBA - a is the transparency of the color */
+h4{
+    color: rgba(163, 69, 69, 0.5);
+}

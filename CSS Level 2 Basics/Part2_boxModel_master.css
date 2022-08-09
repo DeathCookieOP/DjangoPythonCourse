@@ -1,0 +1,19 @@
+#top{
+    border: 4px solid blue;
+    /* this makes the width of this item in the page*/
+    width: 25%; 
+    text-align: center;
+    /* top right bottom left (clockwise movement)*/
+    /* margin: 10px 20px 100px 400px; */
+    /* or can do top + bottom, left + right */
+    /* or can do just 1, which is the same for all */
+    /* margin: 10px 20px */
+    margin: auto;
+}
+
+#bottom{
+    border: 4px solid red;
+    width: 50%;
+    padding: 200px;
+    text-align: center;
+}

@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://images7.alphacoders.com/114/thumb-1920-1146879.jpg");
+    background-size: cover;
+}
+
+h5{
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(28, 28, 57);
+    padding: 10px;
+}
+
+a{
+    /* Adding a space between the two */
+    padding: 10px; 
+}
+
+a:link, a:visited {
+    /* Making it so color doesnt change when you visit */
+    color: yellow;
+}
+
+a:hover {
+    /* Have it a diff color when you hover */
+    color: orange;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    /* margin: 1%; */
+    padding: 15px;
+}
+
+h2{
+    color: orangered;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+
+/* since index page, i will keep the one that it's currently on
+just white to show its on that one */
+#signUp{
+    color: white;
+    text-decoration: none;
+}
+
+#signingPage{
+    color: green;
+}
+
+form{
+    text-align: center;
+    color: white;
+}
+
+input{
+    margin: 10px;
+}
+
+#submit{
+    background-color: yellow;
+    /* border: 20px yellow dotted; */
+    /* increase size */
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    border-radius: 20px;
+}
+

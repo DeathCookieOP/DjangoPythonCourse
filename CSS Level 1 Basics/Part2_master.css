@@ -1,0 +1,29 @@
+/* 
+General format of CSS
+selected tag{
+    property: value;
+} */
+
+body{
+    /* Can search up 'background shorthand property to see all functions u can do to background */
+    background: url(https://i.kym-cdn.com/entries/icons/original/000/037/349/Screenshot_14.jpg)
+    no-repeat top;
+    background-size: 500px;
+}
+
+div{
+    background-color: blue;
+    border: 4px orange double;
+    /* border-color: blue;
+    border-width: 5px;
+    border-style: dotted; */
+}
+
+p{
+    color:yellow;
+}
+
+span{
+    background: red;
+    color: black;
+}

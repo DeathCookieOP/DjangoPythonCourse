@@ -1,0 +1,30 @@
+h1{
+    /* changes the font */
+    font-family: "Arial";
+}
+
+p{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+}
+
+body{
+    /*  em values used more to do font sizes
+        default is 1em = 16px */
+    font-size: 20px;
+}
+
+#two{
+    /*  twice as large as the first one
+        basics scaling based off of global size in css file */
+    /*  rem is more used than em. It's basically em for main type
+        (so this one it would be em for p*/
+    font-size: 2.0em;
+    font-family: 'Barrio', cursive;
+}
+
+h1{
+    /* Allows to center, put to left, center, etc */
+    text-align: center;
+}

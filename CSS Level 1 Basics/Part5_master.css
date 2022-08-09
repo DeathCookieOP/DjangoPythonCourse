@@ -1,0 +1,13 @@
+li{
+    color: red;
+}
+
+/* Classes have hiearchy over  general tag calls */
+.topItems{
+    color: blue;
+}
+
+/* IDs have hiearchy than general tag calls and classes */
+#two{
+    border: 3px solid black;
+}
